@@ -10,26 +10,26 @@ PROJECT OVERVIEW:
 
 METHODOLOGY:
 
-* **\*\*Data Loading**  
+*  Data Loading  
   Imported the credit risk dataset containing customer financial and demographic information.  
-* **\*\*Data Cleaning\*\***  
+*  Data Cleaning  
   Handled missing values using median imputation and removed irrelevant columns.  
-* **\*\*Feature Scaling\*\***  
+* Feature Scaling
   Standardized numeric features to prepare for machine learning.  
-* **\*\*Train-Test Split\*\***  
+* Train-Test Split 
   Split the data into training and testing sets (70/30) with stratified sampling.  
-* **\*\*Model Training\*\***  
+* Model Training 
   Trained a Random Forest classifier to predict the likelihood of loan default.  
-* **\*\*Model Evaluation\*\***  
+* Model Evaluation 
   Evaluated model performance using ROC AUC, confusion matrix, and classification report.  
-* **\*\*Feature Importance\*\***  
+* Feature Importance 
   Identified key features contributing to predictions to support business decisions.
 
-\#\#RESULTS:
+RESULTS:
+The Random Forest model achieved a ROC AUC score of \~0.84, indicating strong predictive performance. Key predictors of default include: Number of past-due payments, Revolving credit utilization, Age, and Monthly income.
+<img width="565" height="726" alt="download" src="https://github.com/user-attachments/assets/2e2ed986-cb81-4530-a7a4-e4eff9f291af" />
 
-\*\*The Random Forest model achieved a ROC AUC score of \~0.84, indicating strong predictive performance. Key predictors of default include: Number of past-due payments, Revolving credit utilization, Age, and Monthly income.\*\* 
 
-![][image1]
 
 BUSINESS RECOMMENDATIONS:
 1. Tighten lending criteria for applicants with high past-due payment history and high credit utilization.  
