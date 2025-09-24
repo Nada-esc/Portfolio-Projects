@@ -1,4 +1,4 @@
-
+# Credit Risk Assessment Using Machine Learning
 <ins>**EXECUTIVE SUMMARY:**</ins>
 
 This project builds a machine learning model to predict whether a customer is likely to default on a loan within the next two years.Using financial and demographic data, the model helps assess credit risk, which can support better lending decisions. The workflow includes data cleaning, feature scaling, model training (Random Forest), evaluation using ROC AUC, and visualizing feature importance. This end-to-end solution reflects real-world applications in banking and risk management.
